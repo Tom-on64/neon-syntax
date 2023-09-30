@@ -1,0 +1,25 @@
+{
+  "name": "neon-syntax",
+  "displayName": "neon-syntax",
+  "description": "This is the official Neon Syntax higlighting plugin",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "neon",
+      "aliases": ["Neon", "neon"],
+      "extensions": [".ne"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "neon",
+      "scopeName": "",
+      "path": "./syntaxes/neon.tmLanguage.json"
+    }]
+  }
+}
