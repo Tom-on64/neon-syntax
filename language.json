@@ -1,0 +1,38 @@
+{
+  "comments": {
+    "lineComment": "//",
+    "blockComment": ["/*", "*/"]
+  },
+  "indentationRules": {
+    "increaseIndentPattern": "\\{", // Pattern that increases indentation
+    "decreaseIndentPattern": "\\}" // Pattern that decreases indentation
+  },
+  "wordPattern": "[a-zA-Z_$][\\w$]*",
+  "symbol": {
+    "wordPattern": "[a-zA-Z_$][\\w$]*", // Pattern to identify words
+    "disallowedInIdentifier": ":"
+  },
+  "brackets": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"]
+  ],
+  "autoClosingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["\"", "\""],
+    ["'", "'"],
+    ["`", "`"]
+  ],
+  "surroundingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["\"", "\""],
+    ["'", "'"],
+    ["`", "`"]
+  ],
+  "autoIndent": "full",
+  "electricCharacters": "}])"
+}

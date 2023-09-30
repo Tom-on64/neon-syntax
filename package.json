@@ -14,11 +14,11 @@
       "id": "neon",
       "aliases": ["Neon", "neon"],
       "extensions": [".ne"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language.json"
     }],
     "grammars": [{
       "language": "neon",
-      "scopeName": "",
+      "scopeName": "source.ne",
       "path": "./syntaxes/neon.tmLanguage.json"
     }]
   }
