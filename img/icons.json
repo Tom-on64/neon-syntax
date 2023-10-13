@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "ne-icon": { "iconPath": "ne.png" },
+    "nex-icon": { "iconPath": "nex.png" }
+  },
+  "fileExtensions": {
+    "ne-icon": ".ne",
+    "nex-icon": ".nex"
+  }
+}

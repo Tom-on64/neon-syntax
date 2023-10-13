@@ -4,6 +4,12 @@ All notable changes to the "neon-syntax" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
-
+## [0.0.1]
 - Initial release
+
+## [0.0.2]
+- Added: 
+  - Author
+  - Extension icon
+  - Icons for .ne and .nex files
+  - 

@@ -2,7 +2,13 @@
   "name": "neon-syntax",
   "displayName": "neon-syntax",
   "description": "This is the official Neon Syntax higlighting plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": {
+    "name": "Tom-on"
+  },
+  "repository": {
+    "url": "https://github.com/Tom-on64/neon"
+  },
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -13,13 +19,21 @@
     "languages": [{
       "id": "neon",
       "aliases": ["Neon", "neon"],
-      "extensions": [".ne"],
+      "extensions": [".ne", ".nex"],
       "configuration": "./language.json"
     }],
     "grammars": [{
       "language": "neon",
       "scopeName": "source.ne",
       "path": "./syntaxes/neon.tmLanguage.json"
-    }]
-  }
+    }],
+    "iconThemes": [
+      {
+        "id": "neon",
+        "label": "Neon Icons",
+        "path": "./img/icons.json"
+      }
+    ]
+  },
+  "icon": "img/icon.png"
 }
