@@ -4,3 +4,4 @@
 testing/**
 vsc-extension-quickstart.md
 *.vsix
+release/**
