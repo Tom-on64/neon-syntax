@@ -80,8 +80,17 @@
       ]
     },
     "keywords": {
-      "name": "keyword.control.neon",
-      "match": "\\b(if|else|for|while|return|break|continue)\\b"
+      "name": "keyword.neon",
+      "patterns": [
+        {
+          "name": "keyword.control.neon", 
+          "match": "\\b(if|else|for|while|return|break|continue)\\b"
+        }, 
+        {
+          "name": "constant.null.neon", 
+          "match": "\\bnull\\b"
+        }
+      ]
     },
     "operators": {
       "name": "keyword.operator.neon",
