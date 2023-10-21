@@ -1,3 +1,16 @@
-# Neon Syntax Highlighting
+# Neon Language Support
 
-A simple syntax highlighting extension for Neon support in VSCode
+Support for the Neon programming language for VSCode
+
+## Features
+### Syntax highlighting
+Support for syntax highlighting.
+![Syntax Example](img/syntaxExample.png)
+
+Highlights:
+- Variables
+- Functions
+- Statements
+- Loops
+- Classes
+- And more!

@@ -19,3 +19,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added null constant
 - Minor chages/fixes
+
+## [0.0.4]
+
+- Changed README.md
+- Minor fixes
