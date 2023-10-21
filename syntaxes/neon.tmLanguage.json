@@ -10,14 +10,14 @@
         { "include": "#strings" },
         { "include": "#numbers" },
         { "include": "#comments" },
+        { "include": "#classes" }, 
+        { "include": "#imports" }, 
         { "include": "#keywords" },
         { "include": "#operators" },
         { "include": "#modifiers" },
-        { "include": "#imports" },
         { "include": "#types" },
         { "include": "#userTypes" },
-        { "include": "#functionCalls" },
-        { "include": "#classes" }
+        { "include": "#functionCalls" }
       ]
     },
     "imports": {
@@ -63,7 +63,7 @@
     },
     "numbers": {
       "name": "constant.numeric.neon",
-      "match": "-?\\d+(.\\d+)?(f|d)?"
+      "match": "-?\\d+(\\.\\d+)?(f)?"
     },
     "comments": {
       "name": "comment.neon",
@@ -84,7 +84,7 @@
       "patterns": [
         {
           "name": "keyword.control.neon", 
-          "match": "\\b(if|else|for|while|return|break|continue)\\b"
+          "match": "\\b(if|else|for|while|return|break|continue|import|class)\\b"
         }, 
         {
           "name": "constant.null.neon", 
@@ -115,6 +115,7 @@
         { "include": "#strings" },
         { "include": "#numbers" },
         { "include": "#modifiers" },
+        { "include": "#types" }, 
         { "name": "variable.parameter.function.neon", "match": "[^)]*" }
       ]
     },

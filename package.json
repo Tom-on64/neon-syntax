@@ -2,7 +2,7 @@
   "name": "neon-syntax",
   "displayName": "neon-syntax",
   "description": "This is the official Neon Syntax higlighting plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Tom-on"
   },
@@ -16,17 +16,27 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "neon",
-      "aliases": ["Neon", "neon"],
-      "extensions": [".ne", ".nex"],
-      "configuration": "./language.json"
-    }],
-    "grammars": [{
-      "language": "neon",
-      "scopeName": "source.ne",
-      "path": "./syntaxes/neon.tmLanguage.json"
-    }],
+    "languages": [
+      {
+        "id": "neon",
+        "aliases": [
+          "Neon",
+          "neon"
+        ],
+        "extensions": [
+          ".ne",
+          ".nex"
+        ],
+        "configuration": "./language.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "neon",
+        "scopeName": "source.ne",
+        "path": "./syntaxes/neon.tmLanguage.json"
+      }
+    ],
     "iconThemes": [
       {
         "id": "neon",
