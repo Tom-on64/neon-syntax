@@ -4,7 +4,7 @@ Support for the Neon programming language for VSCode
 
 ## Features
 ### Syntax highlighting
-Support for syntax highlighting.
+Support for syntax highlighting. \
 ![Syntax Example](img/syntaxExample.png)
 
 Highlights:
