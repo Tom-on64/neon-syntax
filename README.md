@@ -1,6 +1,6 @@
 # Neon Language Support
 
-Support for the Neon programming language for VSCode
+Support for the [Neon Programming Language](https://github.com/Tom-on64/neon/) for VSCode
 
 ## Features
 ### Syntax highlighting
