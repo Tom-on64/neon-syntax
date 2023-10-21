@@ -2,7 +2,7 @@
   "name": "neon-syntax",
   "displayName": "neon-syntax",
   "description": "This is the official Neon Syntax higlighting plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Tom-on"
   },
